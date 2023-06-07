@@ -1,0 +1,143 @@
+/*
+Theme Name: Posterexperten
+Author: Alexander Klum
+Version: 1.0
+Description: Mitt examenarbete
+*/
+
+
+/*   --- ALLA SIDOR ---   */
+
+body 
+{
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background: rgb(114,114,114);
+    background: linear-gradient(0deg, rgba(114,114,114,1) 0%, rgba(66,66,66,1) 40%, rgba(38,38,38,1) 100%);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+.container 
+{
+    width: 80%;
+}
+
+
+/*  --- HEADER ---  */
+
+.header-container 
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color: #FFF; 
+}
+
+.header-menu 
+{
+    display: flex;
+    width: 25%;
+    padding-left: 6%;
+    justify-content: space-evenly;
+}
+
+.menu-btn 
+{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: rgba(38,38,38,1);
+}
+.menu-btn:hover 
+{
+    color: rgb(122, 122, 122);
+}
+.menu-btn:active 
+{
+    color: rgba(38,38,38,1);
+}
+
+.kundvagn-btn 
+{
+    margin-left: 64%;
+}
+
+
+/*  --- FOOTER ---  */
+
+.footer-container 
+{
+    display: flex;
+    flex-flow: row nowrap;
+    width:100%;
+    height: 134px;
+    background-color: rgba(114,114,114,1) 0%;
+
+}
+
+.kontakt-container 
+{
+    margin-left: 4%;
+}
+
+.kontakt-h4 
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: rgba(225, 225, 225, 90%);
+}
+
+.kontakt-p 
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    color: rgba(225, 225, 225, 90%);
+}
+
+.copyright 
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    color: rgba(225, 225, 225, 90%);
+    margin-left: 70%;
+    margin-top: 114px;
+}
+
+
+/*  --- STARTSIDAN & KATEGORISIDOR ---  */
+
+
+.titel-sida 
+{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    color: #FFF;
+    margin-bottom: -1%;
+}
+
+.beskrivning-kategori 
+{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    color: #FFF;
+}
+
+.slideshow 
+{
+    margin-left: 40px;
+}
+
+.paragraph-text 
+{
+    color: #FFF;
+}
